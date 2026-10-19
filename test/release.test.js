@@ -387,6 +387,13 @@ test('pull request titles must read as a changelog line', () => {
   assert.ok(titleProblems('feat: wip').length > 0, 'too short and meaningless');
   assert.ok(titleProblems('feat: ajouter un widget énergie').length > 0, 'not English');
   assert.ok(titleProblems('feat: Add the energy widget').length > 0, 'capitalized');
+  assert.deepEqual(
+    titleProblems(
+      'build(deps-dev): Bump eslint from 10.12.0 to 10.13.0 in the dev-dependencies group',
+    ),
+    [],
+    'Dependabot titles',
+  );
   assert.ok(titleProblems('feature: add the energy widget').length > 0, 'unknown type');
 });
 

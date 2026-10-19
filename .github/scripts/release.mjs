@@ -455,7 +455,8 @@ export function titleProblems(title) {
   if (/[^ -~]/.test(commit.description)) {
     problems.push('write the description in English, without accented characters');
   }
-  if (/^[A-Z][a-z]/.test(commit.description)) {
+  // "Bump" is how Dependabot writes its titles ("build(deps): Bump x from 1 to 2").
+  if (/^[A-Z][a-z]/.test(commit.description) && !/^Bump /.test(commit.description)) {
     problems.push('start the description with a lowercase verb ("add...", "fix...")');
   }
   return problems;
