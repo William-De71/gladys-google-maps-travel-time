@@ -1,6 +1,6 @@
 {
   "name": "gladys-google-maps-travel-time",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "External Gladys Assistant integration for travel times with live traffic from the Google Maps Platform Routes API: one device per trip, traffic delay, distance, route, scene triggers and actions, dashboard widgets.",
   "homepage": "https://github.com/William-De71/gladys-google-maps-travel-time",

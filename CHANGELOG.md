@@ -5,6 +5,12 @@ follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions
 follow [Semantic Versioning](https://semver.org/). This file is generated at
 each release from the Conventional Commits: do not edit it by hand.
 
+## [0.1.1] - 2026-10-24
+
+### Security
+
+- **security:** build the image on Node.js 24.22.1 or later ([803b316](https://github.com/William-De71/gladys-google-maps-travel-time/commit/803b3165ee45decbf5d71fafb30451592bec518f))
+
 ## [0.1.0] - 2026-10-19
 
 ### Added
@@ -17,4 +23,5 @@ each release from the Conventional Commits: do not edit it by hand.
 - Dashboard widgets: travel times of the trips (with delay badges, Google Maps links and a refresh button), one trip, requests of the month.
 - English, French, German and Spanish everywhere: settings, devices, widgets, scenes and documentation.
 
+[0.1.1]: https://github.com/William-De71/gladys-google-maps-travel-time/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/William-De71/gladys-google-maps-travel-time/releases/tag/v0.1.0
