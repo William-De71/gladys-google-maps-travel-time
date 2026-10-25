@@ -5,6 +5,12 @@ follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions
 follow [Semantic Versioning](https://semver.org/). This file is generated at
 each release from the Conventional Commits: do not edit it by hand.
 
+## [0.2.0] - 2026-10-25
+
+### Added
+
+- list the integration under the new Transport shelf of the catalog ([17a37a2](https://github.com/William-De71/gladys-google-maps-travel-time/commit/17a37a2956376cc8bf0728daeeb22f75be3fc50c))
+
 ## [0.1.1] - 2026-10-24
 
 ### Security
@@ -23,5 +29,6 @@ each release from the Conventional Commits: do not edit it by hand.
 - Dashboard widgets: travel times of the trips (with delay badges, Google Maps links and a refresh button), one trip, requests of the month.
 - English, French, German and Spanish everywhere: settings, devices, widgets, scenes and documentation.
 
+[0.2.0]: https://github.com/William-De71/gladys-google-maps-travel-time/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/William-De71/gladys-google-maps-travel-time/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/William-De71/gladys-google-maps-travel-time/releases/tag/v0.1.0
