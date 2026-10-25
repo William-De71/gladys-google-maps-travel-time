@@ -58,7 +58,7 @@ test('declares the cloud transport: Google only, never a local device', () => {
 test('widgets and scenes need Gladys 5.1.0; no widget form, no extra permission', () => {
   assert.equal(manifest.gladys_version, '>=5.1.0');
   assert.doesNotMatch(source('../src/widgets.js'), /fields:/, 'a button form would need 5.2.0');
-  assert.deepEqual(manifest.categories, ['services']);
+  assert.deepEqual(manifest.categories, ['transport']);
   for (const key of ['location', 'network_wake', 'containers', 'network_discovery', 'webhooks']) {
     assert.equal(manifest[key], undefined, key);
   }
