@@ -15,7 +15,7 @@ L’image ci-dessus est une illustration générée, pas une capture d’écran.
 
 ## Prérequis
 
-- Gladys Assistant 5.1.0 ou plus récent.
+- Gladys Assistant 5.3.0 ou plus récent.
 - Une **clé d’API Google Maps Platform** :
   1. Dans la [console Google Cloud](https://console.cloud.google.com/), créez un projet (ou choisissez-en un) et associez-lui un **compte de facturation** : Google l’exige même si vous restez dans l’usage gratuit.
   2. Activez la **Routes API** (API et services → Bibliothèque → « Routes API »).
